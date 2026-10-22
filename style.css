@@ -131,7 +131,7 @@ button {
   position: relative;
   display: flex;
   align-items: center;
-  background-image: url("bg-optimized.webp");
+  background-image: url("./bg-optimized.webp");
   background-position: center 48%;
   background-size: cover;
   isolation: isolate;
