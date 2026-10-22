@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rupasri G K — aspiring web developer exploring HTML, CSS, JavaScript, Python, Django, Linux, networking and AI.">
+  <title>Rupasri G K | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">Rupasri <span>G K</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="resume-link" href="#contact">✦ Let's Connect</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-inner container">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> HELLO, I'M</p>
+          <h1>Rupasri <span>G K</span></h1>
+          <h2><span class="typing" id="typing-text">Aspiring Web Developer</span></h2>
+          <p class="hero-description">
+            I build modern, responsive and user-friendly websites. I'm passionate
+            about web development, Python, Django, Linux, networking and AI.
+            Always learning, always creating meaningful projects.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">✉ <span>Let's Connect</span></a>
+            <a class="button button-glass" href="#projects">⌘ <span>View My Work</span></a>
+          </div>
+          <div class="social-links" aria-label="Social links">
+            <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">GH</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+            <a href="mailto:YOUR_EMAIL@example.com" aria-label="Email">@</a>
+            <a href="#skills" aria-label="Explore skills">&lt;/&gt;</a>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#about"><span class="scroll-dot"></span> Scroll<br>Down</a>
+      </div>
+      <div class="hero-wave" aria-hidden="true"></div>
+    </section>
+
+    <section class="about-section section container reveal" id="about">
+      
+        <div class="about-visual">
+            <div class="visual-orbit orbit-one"></div>
+            <div class="visual-orbit orbit-two"></div>
+
+            <div class="profile-frame">
+                <img
+                    src="rupaai-optimized.webp"
+                    alt="Professional portrait of Rupasri G K"
+                    class="profile-photo"
+                >
+            </div>
+
+            <!-- <div class="code-float">&lt;/&gt;</div> -->
+        </div>
+
+      <div class="about-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> ABOUT ME</p>
+        <h2>Turning Ideas into<br><span class="gradient-text">Digital Experiences</span></h2>
+        <p>I'm Rupasri G K, an aspiring web developer with a strong interest in creating responsive websites and exploring technologies like Python, Django, Linux, networking and AI. I enjoy learning, building projects and improving my skills through hands-on experience.</p>
+        <a class="text-link" href="#contact">More About Me <span>→</span></a>
+      </div>
+      <div class="stats-grid">
+        <article class="stat-card cyan"><span class="stat-icon">⌘</span><div><small>Learning</small><strong>8+</strong><small>Technologies</small></div></article>
+        <article class="stat-card purple"><span class="stat-icon">&lt;/&gt;</span><div><small>Building</small><strong>3+</strong><small>Projects planned</small></div></article>
+        <article class="stat-card pink"><span class="stat-icon">▤</span><div><small>Always</small><strong>Exploring</strong><small>New technologies</small></div></article>
+        <article class="stat-card orange"><span class="stat-icon">◎</span><div><small>My goal</small><strong>Grow</strong><small>As a developer</small></div></article>
+      </div>
+    </section>
+
+    <section class="skills-section section" id="skills">
+      <div class="container reveal">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> MY SKILLS</p><h2>Technologies I Work With</h2></div>
+          <p>A growing toolkit across web development, programming, systems and AI.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-symbol html">5</span><h3>HTML5</h3><small>Structure</small></article>
+          <article class="skill-card"><span class="skill-symbol css">3</span><h3>CSS3</h3><small>Design</small></article>
+          <article class="skill-card"><span class="skill-symbol js">JS</span><h3>JavaScript</h3><small>Interaction</small></article>
+          <article class="skill-card"><span class="skill-symbol python">Py</span><h3>Python</h3><small>Programming</small></article>
+          <article class="skill-card"><span class="skill-symbol django">dj</span><h3>Django</h3><small>Web backend</small></article>
+          <article class="skill-card"><span class="skill-symbol linux">⌘</span><h3>Linux</h3><small>Command line</small></article>
+          <article class="skill-card"><span class="skill-symbol network">◎</span><h3>Networking</h3><small>Fundamentals</small></article>
+          <article class="skill-card"><span class="skill-symbol ai">✳</span><h3>AI</h3><small>Exploration</small></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section section container reveal" id="projects">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span class="eyebrow-line"></span> MY PROJECTS</p><h2>Featured Projects</h2></div>
+        <p>Selected practice projects and ideas I'm developing.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-art portfolio-art"><span class="browser-dots">● ● ●</span><div class="mini-screen"><b>R.</b><i></i><i></i><i></i><span>PORTFOLIO</span></div></div>
+          <div class="project-info"><div class="project-title-row"><h3>Personal Portfolio</h3><span class="status featured">Featured</span></div><p>A modern responsive website built with HTML, CSS and JavaScript.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="#home" class="project-link">Live Demo <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-art django-art"><span class="app-window"><b>Dashboard</b><i></i><i></i><i></i><em>PROJECT DATA</em></span></div>
+          <div class="project-info"><div class="project-title-row"><h3>Django Web Application</h3><span class="status progress">Planned</span></div><p>A Python web app concept for practising backend development and data handling.</p><div class="tags"><span>Python</span><span>Django</span></div><a href="#contact" class="project-link">View Details <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-art cloud-art"><div class="cloud-shape">☁</div><div class="server-stack"><i></i><i></i><i></i></div></div>
+          <div class="project-info"><div class="project-title-row"><h3>Cloud Deployment</h3><span class="status planned">Learning</span></div><p>A learning project to explore cloud hosting, storage and deployment concepts.</p><div class="tags"><span>AWS</span><span>Linux</span><span>Networking</span></div><a href="#contact" class="project-link">View Details <span>↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="container contact-inner reveal">
+        <div><p class="eyebrow"><span class="eyebrow-line"></span> GET IN TOUCH</p><h2>Let's Build Something <span class="gradient-text">Amazing</span></h2><p>I'm open to learning opportunities, collaboration and interesting projects.</p></div>
+        <a class="contact-card" href="mailto:greekrupasri@gmail.com"><span class="contact-icon">✉</span><span><small>Email</small><strong>greekrupasri@gmail.com</strong></span><span class="arrow">↗</span></a>
+        <a class="contact-card" href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span class="contact-icon linkedin">in</span><span><small>LinkedIn</small><strong>www.linkedin.com/in/rupasrigk</strong></span><span class="arrow">↗</span></a>
+        <a class="contact-card" href="https://github.com/" target="_blank" rel="noreferrer"><span class="contact-icon github">GH</span><span><small>GitHub</small><strong>https://github.com/RupasriGK</strong></span><span class="arrow">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand" href="#home">Rupasri <span>G K</span></a><p>© <span id="year"></span> Rupasri G K. Built with curiosity.</p><a href="#home" class="back-top" aria-label="Back to top">↑</a></div>
+  </footer>
+</body>
+</html>
