@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://ubiquitous-cendol-4ba4c1.netlify.app/sitemap.xml
